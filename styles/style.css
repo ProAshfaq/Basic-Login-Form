@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.login-form{
+    width: 300px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px solid rgb(110, 110, 110);
+    background-color: #eee;
+}
+.form-group{
+    width: 100%;
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+}
+.user{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 1px solid black;
+}  
+
+.avatar{
+    width: 100%;
+    text-align: center;
+}
+.form-control{
+    width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #777;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 5px;
+}
+.btn{
+    padding: 15px 35px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
